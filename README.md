@@ -73,6 +73,7 @@ dotnet test tests/AlgoExplorer.Tests
 ```
 ## 📂 Структура проекта
 Проект имеет чёткое разделение на модули по смысловым областям (SOLID, чистая архитектура):
+```
 AlgoExplorer/
 ├── 📁 src/AlgoExplorer/
 │   ├── 📁 Algorithms/          ← Алгоритмы и их реализации
@@ -84,7 +85,7 @@ AlgoExplorer/
 ├── 📁 tests/AlgoExplorer.Tests/ ← Модульные тесты
 ├── 📄 AlgoExplorer.sln         ← Файл решения
 ── 📄 README.md                ← Документация
-
+```
 ## ▶️ Как запустить
 ### Требования
 .NET SDK 8.0.0 и больше
