@@ -109,15 +109,18 @@ AlgoExplorer/
 Установленный [.NET 8 SDK](https://dotnet.microsoft.com/download) или новее
 
 ### Запуск приложения
+Запуск можете осуществлять через терминал bash или PowerShell
 
-```bash
 # Перейдите в корневую папку проекта
+```bash
 cd AlgoExplorer
-
-# Соберите проект
+```
+### Соберите проект
+```
 dotnet build
-
-# Запустите интерактивное приложение
+```
+### Запустите интерактивное приложение
+```
 dotnet run --project src/AlgoExplorer
 ```
 
