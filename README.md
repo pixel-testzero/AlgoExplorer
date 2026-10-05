@@ -1,4 +1,4 @@
-# AlgoGod или AlgoExplorer
+# AlGod или AlgoExplorer
 <img width="550" height="605" alt="изображение" src="https://github.com/user-attachments/assets/65496910-7faa-40db-913b-6782bc22003e" />
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
