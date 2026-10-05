@@ -74,16 +74,16 @@ dotnet test tests/AlgoExplorer.Tests
 ## 📂 Структура проекта
 Проект имеет чёткое разделение на модули по смысловым областям (SOLID, чистая архитектура):
 AlgoExplorer/
-├── src/AlgoExplorer/
-│   ├── Algorithms/         # Реализации алгоритмов (Sorting, Graph, DP, TwoPointers)
-│   ├── DataStructures/     # Реализации структур данных (BST)
-│   ├── Demos/              # Сценарии практической демонстрации работы
-│   ├── Theory/             # Подробные текстовые описания, псевдокод и примеры
-│   ├── UI/                 # Консольный интерфейс (Баннер, Меню, Хелперы)
-│   └── Program.cs          # Точка входа
-├── tests/AlgoExplorer.Tests/ # Модульные тесты (xUnit)
-├── AlgoExplorer.sln        # Файл решения
-└── README.md               # Этот файл
+├── 📁 src/AlgoExplorer/
+│   ├── 📁 Algorithms/          ← Алгоритмы и их реализации
+│   ├──  DataStructures/      ← Структуры данных
+│   ├── 📁 Demos/               ← Практические демонстрации
+│   ├── 📁 Theory/              ← Теоретические материалы
+│   ├──  UI/                  ← Пользовательский интерфейс
+│   └── 📄 Program.cs           ← Точка входа в приложение
+├── 📁 tests/AlgoExplorer.Tests/ ← Модульные тесты
+├── 📄 AlgoExplorer.sln         ← Файл решения
+── 📄 README.md                ← Документация
 
 ## ▶️ Как запустить
 ### Требования
