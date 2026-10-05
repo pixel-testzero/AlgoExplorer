@@ -75,17 +75,38 @@ dotnet test tests/AlgoExplorer.Tests
 Проект имеет чёткое разделение на модули по смысловым областям (SOLID, чистая архитектура):
 ```
 AlgoExplorer/
-├── 📁 src/AlgoExplorer/
-│   ├── 📁 Algorithms/          ← Алгоритмы и их реализации
-│   ├──  DataStructures/      ← Структуры данных
-│   ├── 📁 Demos/               ← Практические демонстрации
-│   ├── 📁 Theory/              ← Теоретические материалы
-│   ├──  UI/                  ← Пользовательский интерфейс
-│   └── 📄 Program.cs           ← Точка входа в приложение
-├── 📁 tests/AlgoExplorer.Tests/ ← Модульные тесты
-├── 📄 AlgoExplorer.sln         ← Файл решения
-── 📄 README.md                ← Документация
+├── src/AlgoExplorer/
+│   ├── Algorithms/           # Реализации алгоритмов
+│   │   ├── Sorting/          # Merge Sort, Quick Sort
+│   │   ├── Graph/            # BFS, DFS, Dijkstra
+│   │   ├── DP/               # Задача о рюкзаке
+│   │   └── TwoPointers/      # Поиск пары с суммой
+│   ├── DataStructures/       # Структуры данных
+│   │   └── BST/              # Бинарное дерево поиска
+│   ├── Demos/                # Практические демонстрации
+│   ├── Theory/               # Теоретические материалы
+│   ├── UI/                   # Пользовательский интерфейс
+│   └── Program.cs            # Точка входа
+├── tests/AlgoExplorer.Tests/ # Модульные тесты (xUnit)
+├── AlgoExplorer.sln          # Файл решения
+├── README.md                 # Документация
+├── .gitignore                # Игнорируемые файлы
+└── LICENSE                   # MIT лицензия
 ```
+```
+| Путь | Описание |
+|------|----------|
+| `Algorithms/Sorting/` | Реализации Merge Sort и Quick Sort |
+| `Algorithms/Graph/` | Алгоритмы BFS, DFS и Дейкстры |
+| `Algorithms/DP/` | Динамическое программирование (рюкзак 0/1) |
+| `Algorithms/TwoPointers/` | Техника двух указателей |
+| `DataStructures/BST/` | Бинарное дерево поиска с визуализацией |
+| `Demos/` | Сценарии практической демонстрации работы алгоритмов |
+| `Theory/` | Подробные теоретические описания с псевдокодом |
+| `UI/` | Консольный интерфейс: баннер, меню, хелперы |
+| `tests/` | Unit-тесты на xUnit (37 тестов) |
+
+---
 ## ▶️ Как запустить
 ### Требования
 .NET SDK 8.0.0 и больше
